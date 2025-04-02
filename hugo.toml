@@ -1,0 +1,47 @@
+baseURL = "https://github.com/bruno-figliuzzi/IDSC/"
+theme = "LoveIt"
+title = "Option Ingénierie Digitale des Systèmes Complexes"
+languageCode = "fr"
+languageName = "French"
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "cours"
+    pre = ""
+    post = ""
+    name = "Cours"
+    url = "#cours"
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "challenges"
+    pre = ""
+    post = ""
+    name = "Data Challenges"
+    url = "#challenge"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "voyage"
+    pre = ""
+    post = ""
+    name = "Voyage d'option"
+    url = "#voyage"
+    title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "stages"
+    pre = ""
+    post = ""
+    name = "Stages"
+    url = "#stages"
+    title = ""
+    
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
